@@ -1,0 +1,47 @@
+/* * { 
+    border-color: black; 
+    border-width: 1px; 
+    border-style: solid;
+} */
+
+body { 
+    background-color: black; 
+}
+.container { 
+    height: 100vh; 
+        
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 10px;
+
+}
+
+.bookcase { 
+    background-color: lightblue; 
+    border-radius: 20px;
+    display: grid; 
+}
+
+.userinput { 
+    background-color: red; 
+    border-radius: 20px;
+    display: grid;
+    align-items: center; 
+    justify-content: center;
+}
+
+.form-container { 
+    display: grid;  
+
+}
+
+ul { 
+    align-items: center;
+}
+
+li{
+    list-style-type:none;
+}
+
+
