@@ -27,9 +27,11 @@ function displayBook(book){
     const author = document.createElement("p"); 
     const pages = document.createElement("p"); 
 
-    title.innerText  = book.title; 
-    author.innerText = book.author; 
-    pages.innerText  = book.pages; 
+    div.classList.add('book-card'); 
+
+    title.innerHTML  = `<span>Title: </span> ${book.title}`;
+    author.innerHTML = `<span>Author: </span> ${book.author}`;  
+    pages.innerHTML  = `<span>Pages: </span> ${book.pages}`
 
     div.appendChild(title); 
     div.appendChild(author); 
